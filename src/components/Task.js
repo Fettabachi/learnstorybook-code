@@ -13,8 +13,8 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
         />
         <span className="checkbox-custom" onClick={() => onArchiveTask(id)} />
       </label>
-      <div className="title">
-        <input type="text" value={title} readOnly={true} placeholder="Input title" style={{ 'paddingRight': '20px' }} />
+      <div className="title" style={{position: "relative"}}>
+        <input type="text" value={title} readOnly={true} placeholder="Input title" style={{ 'paddingRight': '0px' }} />
       </div>
 
       <div className="actions" onClick={event => event.stopPropagation()}>
