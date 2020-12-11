@@ -1,3 +1,5 @@
+[View App](https://learn-storybook-232.netlify.app/?path=/story/inboxscreen--default)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
